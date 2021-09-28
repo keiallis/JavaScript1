@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Calculator</title>
+    <script src=script.js></script>
+    <script src=style.css></script>
+</head>
+<body>
+    <div id="calculator">
+
+    <form name="investmentForm" onclick="Cal_FV(); return false" > 
+        <table>
+            <tr>
+              <th>Investment Calculator</th>
+              <br>
+            </tr>
+            <tr>
+              <td>
+                <label for="PV">Initial Account Balance:</label><br>
+              </td>
+              <td>
+                <input type="text" id="PV" name="PV"><br>
+              </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="i">Interest Rate:</label><br>
+                </td>
+                <td>
+                    <input type="text" id="i" name="i">
+                </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="n">Duration of Investment:</label><br>
+              </td>
+              <td>
+                <input type="number" id="n" name="n">
+              </td>
+            </tr>
+          </table>
+          <br>
+          <br>
+          <button type="button" id="calculate">Calculate!</button>
+
+    </form>
+
+
+    </div>
+
+   
+
+</body>
+</html>

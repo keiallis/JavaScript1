@@ -1,0 +1,13 @@
+.background{
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dreamstime.com%2Fphotos-images%2Finvestment.html&psig=AOvVaw2D1w2FxiEp6DC9RGWa75zu&ust=1632882516566000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCODl0cXPoPMCFQAAAAAdAAAAABAD");
+    background-repeat: repeat-x
+
+}
+.content {
+    width:80%;
+    height: 100%;
+    margin-left: 20%;
+    display: flex;
+    background: var(--primary);
+    border-radius: 3px;
+}
